@@ -1,0 +1,15 @@
+{
+  "name": "typescript-command-line-movie-browser",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small TypeScript terminal app for searching sample movie lists.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.2"
+  }
+}
